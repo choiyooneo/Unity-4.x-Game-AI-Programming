@@ -1,0 +1,8 @@
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\Temp\bin\Debug\UnityEditor.dll
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\Temp\bin\Debug\UnityEngine.dll
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\Temp\bin\Debug\nunit.framework.dll
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\obj\Debug\Assembly-CSharp.dll
+C:\Users\thetnswe\Dropbox\Book to Publish\Unity AI book\AIBook Chapter 06_ PathFollowing\PathFollowing_Steering\obj\Debug\Assembly-CSharp.pdb

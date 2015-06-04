@@ -1,0 +1,9 @@
+C:\Users\thetnswe\Desktop\UnityAStar\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\thetnswe\Desktop\UnityAStar\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\thetnswe\Desktop\UnityAStar\Temp\bin\Debug\Irrelvant.dll
+C:\Users\thetnswe\Desktop\UnityAStar\Temp\bin\Debug\UnityEditor.dll
+C:\Users\thetnswe\Desktop\UnityAStar\Temp\bin\Debug\UnityEngine.dll
+C:\Users\thetnswe\Desktop\UnityAStar\Temp\bin\Debug\nunit.framework.dll
+C:\Users\thetnswe\Desktop\UnityAStar\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\thetnswe\Desktop\UnityAStar\obj\Debug\Assembly-CSharp.dll
+C:\Users\thetnswe\Desktop\UnityAStar\obj\Debug\Assembly-CSharp.pdb

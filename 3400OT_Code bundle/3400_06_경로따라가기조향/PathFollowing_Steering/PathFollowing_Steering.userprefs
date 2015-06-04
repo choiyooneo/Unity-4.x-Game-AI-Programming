@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PathFollowing/VehicleAvoidance.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PathFollowing/Path.cs" Line="28" Column="16" />
+      <File FileName="Assets/Scripts/PathFollowing/VehicleAvoidance.cs" Line="74" Column="64" />
+      <File FileName="Assets/Scripts/PathFollowing/VehicleFollowing.cs" Line="82" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PathFollowing" expanded="True">
+                  <Node name="VehicleAvoidance.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

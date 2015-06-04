@@ -1,0 +1,50 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Cars/AICar/FSMs/AttackState.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Cars/AICar/FSMs/ChaseState.cs" Line="56" Column="3" />
+      <File FileName="Assets/Scripts/TestRelativeTransform.cs" Line="10" Column="54" />
+      <File FileName="Assets/Scripts/Cars/PlayerCar/Car.cs" Line="607" Column="1" />
+      <File FileName="Assets/Scripts/Cars/AICar/FSMs/AttackState.cs" Line="72" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Cars" expanded="True">
+                  <Node name="AICar" expanded="True">
+                    <Node name="FSMs" expanded="True">
+                      <Node name="AttackState.cs" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="PlayerCar" expanded="True" />
+                </Node>
+                <Node name="Weapon" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-CSharp-Editor" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Editor" expanded="True">
+                <Node name="JStoC" expanded="True">
+                  <Node name="Editor" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-UnityScript" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{BAB16383-A1BA-2B05-EC2D-4DC7427A43EB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AStarDemo\Scripts\AStar\AStar.cs" />
+     <Compile Include="Assets\AStarDemo\Scripts\AStar\AStarManager.cs" />
+     <Compile Include="Assets\AStarDemo\Scripts\AStar\GridManager.cs" />
+     <Compile Include="Assets\AStarDemo\Scripts\AStar\Node.cs" />
+     <Compile Include="Assets\AStarDemo\Scripts\AStar\PriorityQueue.cs" />
+     <Compile Include="Assets\AStarDemo\Scripts\TestCode\TestCode.cs" />
+     <Compile Include="Assets\Scripts\Camera\CarCamera.cs" />
+     <Compile Include="Assets\Scripts\Camera\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\AICarController.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\AICar_Script.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\FSMs\AdvancedFSM.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\FSMs\AttackState.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\FSMs\ChaseState.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\FSMs\DeadState.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\FSMs\FSM.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\FSMs\FSMState.cs" />
+     <Compile Include="Assets\Scripts\Cars\AICar\FSMs\PatrolState.cs" />
+     <Compile Include="Assets\Scripts\Cars\PlayerCar\BlobShadowController.cs" />
+     <Compile Include="Assets\Scripts\Cars\PlayerCar\Car.cs" />
+     <Compile Include="Assets\Scripts\Cars\PlayerCar\CrashController.cs" />
+     <Compile Include="Assets\Scripts\Cars\PlayerCar\PlayerCarController.cs" />
+     <Compile Include="Assets\Scripts\Cars\PlayerCar\Skidmarks.cs" />
+     <Compile Include="Assets\Scripts\Cars\PlayerCar\SoundController.cs" />
+     <Compile Include="Assets\Scripts\Cars\PlayerCar\SoundToggler.cs" />
+     <Compile Include="Assets\Scripts\Flocking Unity\UnityFlock.cs" />
+     <Compile Include="Assets\Scripts\Flocking Unity\UnityFlockController.cs" />
+     <Compile Include="Assets\Scripts\Misc\AutoDestruct.cs" />
+     <Compile Include="Assets\Scripts\Misc\CollisionManager.cs" />
+     <Compile Include="Assets\Scripts\Misc\DynamicObstacle.cs" />
+     <Compile Include="Assets\Scripts\TestRelativeTransform.cs" />
+     <Compile Include="Assets\Scripts\Weapon\AIWeaponController.cs" />
+     <Compile Include="Assets\Scripts\Weapon\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Weapon\Missile.cs" />
+     <Compile Include="Assets\Scripts\Weapon\PlayerWeaponController.cs" />
+     <Compile Include="Assets\Scripts\Weapon\WeaponGun.cs" />
+     <Compile Include="Assets\Scripts\Weapon\WeaponMissile.cs" />
+     <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <None Include="Assets\Shaders\LightsEmmissive.shader" />
+     <None Include="Assets\Shaders\ShadowProjection.shader" />
+     <None Include="Assets\AStarDemo\Readme.txt" />
+     <None Include="Assets\Shaders\GlassReflect.shader" />
+     <None Include="Assets\Editor\JStoC\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
